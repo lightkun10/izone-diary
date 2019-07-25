@@ -1,0 +1,38 @@
+@media(max-width: 600px) {
+  /* #showcase .showcase-container {
+    grid-template-columns: 1fr;
+  }
+
+  #showcase .showcase-container .showcase-content .showcase-container h1 {
+    display: inline-block;
+  } */
+
+  #showcase {
+    content: '';
+    background: url('/img/izone_heart_iz_violeta_bts_all_3.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+  }
+
+  #showcase .showcase-container {
+    /* display: flex;
+    flex-direction: column; */
+  }
+
+  #showcase .showcase-container .showcase-content .showcase-container h1 {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    /* width: 100%; */
+    font-size: 2px;
+    justify-content: center;
+    align-content: center;
+    /* margin-left: 12rem; */
+    width: 100%;
+  }
+
+}

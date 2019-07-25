@@ -1,0 +1,62 @@
+:root {
+  --primary-color: rgba(13, 110, 139, 0.64);
+  --primary-color-bold: rgba(13, 110, 139, 1);
+  /* --primary-color-iz: #b6e3bc; */
+  --primary-color-iz: rgba(182, 227, 188, 0.60);
+  --primary-color-iz-bold: rgba(182, 227, 188, 1.00);
+  --secondary-color: rgba(229, 148, 0, 0.9);
+  --overlay-color: rgba(24, 39, 51, 0.85);
+  --overlay-color-iz: rgba(144, 157, 146, 0.80);
+  --menu-speed: 0.75s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Playfair Display', sans-serif;
+  line-height: 1.85;
+  font-weight: 400;
+  font: 14px;
+}
+
+#showcase {
+  padding: 1rem;
+  position: relative;
+  height: 50vh;
+  width: 100%;
+  background: url(/img/izone_heart_iz_violeta_bts_all_3.jpg) no-repeat center center/cover;
+  /* opacity: 0.60; */
+}
+
+#showcase .container {
+  
+}
+
+#showcase .showcase-content {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  z-index: 1;
+}
+
+#showcase .showcase-content h1 {
+  font-size: 4.4rem;
+  /* color: #ffffff; */
+  /* color: var(--primary-color-bold); */
+  color: #333;
+  background: var(--primary-color-iz-bold);
+  width: 50%;
+  margin-top: 27rem;
+  justify-content: center;
+  text-align: center;
+}
+
+#showcase .showcase-content p {
+  font-size: 1.8rem;
+  color: var(--primary-color-iz-bold);
+  margin-top: 33rem;
+}

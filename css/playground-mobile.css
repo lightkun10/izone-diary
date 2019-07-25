@@ -1,0 +1,29 @@
+@media(max-width: 600px) {
+  #showcase .showcase-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    z-index: 1;
+  }
+
+  #showcase .showcase-content h1 {
+    font-size: 2.4rem;
+    /* color: #ffffff; */
+    /* color: var(--primary-color-bold); */
+    color: #333;
+    /* background: var(--primary-color-iz-bold); */
+    margin-top: 22rem;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background: var(--primary-color-iz);
+  }
+
+  #showcase .showcase-content p {
+    font-size: 1.4rem;
+    color: var(--primary-color-iz-bold);
+    margin-top: 3rem;
+    justify-content: center;
+    text-align: center;
+  }
+
+}
